@@ -1,11 +1,7 @@
+print("🦒Bem vindo ao Text Editor\n este script modificará seu texto🦒")
 
-print("🏃Simulador de velocidade média🏃")
-distancia = float(input("💨Informe a distância percorrida:"))
-tempo = float(input("⏰Informe o tempo da Viagem(em Horas):"))
-
-velocidade_media = distancia / tempo
-
-print("🚨RESULTADO:🚨")
-print("🚗A velocidade média é de {:.2f} km/h".format(velocidade_media))
-print("💨Velocidade escolhida: {} km".format(distancia))
-print("⏰Tempo escolhido: {} horas".format(tempo))
+texto = input("✍️Digite ou cole um texto : ")
+print("🦒Contador de texto🦒")
+print("🕶️Seu texto em outras versões")
+print("⬆️Texto em caixa alta: {}".format(texto.upper()))
+print("⬇️Texto em caixa Baixa: {}".format(texto.lower()))
